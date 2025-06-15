@@ -10,7 +10,7 @@ Important changes for NUCLEO-L552ZE-Q (see STMicroelectronics.X-CUBE-BLE2_Gettin
 * Serial port connected to ST-LINK is LPUART1
 
 Do not forget to allow debug messages in the serial console by enabling BLE2_DEBUG and BLUENRG2_DEBUG in bluenrg_conf.h (in BlueNRG_2/Target).
-
+Also, take care of jumper J14 on the X-NUCLEO-BNRG2A1 which has to be on 1-2.
   
 This application contains an example which shows how to implement proprietary Bluetooth Low Energy profiles.
 The communication is done using a STM32 Nucleo board and a Smartphone with BTLE.
